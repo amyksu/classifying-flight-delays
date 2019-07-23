@@ -15,9 +15,9 @@ Before tackling my problem, I did some EDA on the data I collected. First, becau
 ![](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563843094722_image.png)
 
 
-In addition, I thought it would be interesting to see which airlines had the most delays out of the top 20 busiest airlines. Below, are these 20 airlines and the percent of flights delayed more than 30 minutes. 
+In addition, I thought it would be interesting to see which airlines had the most delays out of the top 20 busiest airlines. Below, are these 20 airlines and the percent of flights delayed more than 30 minutes.  
 
-![](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563843086216_image.png)
+![](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563922744434_image.png)
 
 ## Feature Engineering and Metrics Selection
 
