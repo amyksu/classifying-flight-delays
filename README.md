@@ -12,12 +12,12 @@ I, then, gathered daily weather information for these two months from DarkSky AP
 ## EDA
 Before tackling my problem, I did some EDA on the data I collected. First, because there were so many flights in my dataset, I wanted to reduce the number by focusing on the top 20 busiest airports. Within the 20 busiest airports, here are the average delay in minutes. 
 
-![](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563843094722_image.png)
+![Top Airports](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563843094722_image.png)
 
 
 In addition, I thought it would be interesting to see which airlines had the most delays out of the top 20 busiest airlines. Below, are these 20 airlines and the percent of flights delayed more than 30 minutes.  
 
-![](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563922744434_image.png)
+![Top Airlines](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563922744434_image.png)
 
 ## Feature Engineering and Metrics Selection
 
@@ -33,7 +33,7 @@ For my project, I attempted to maximize the F1 score because both recall and pre
 
 Using a subset of my data, I tried a few models such as logistic regression, random forest classifier, and gradient boosting, to name a few. 
 
-![](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563920068235_image.png)
+![Models](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563920068235_image.png)
 
 
 As I mentioned in the previous section, because I was focusing on maximizing my F1 score, I landed on gradient boosting using XGBoost because I obtained the highest F1 score. 
@@ -46,7 +46,7 @@ Because my classes (delayed flights versus non-delayed flights) were imbalanced,
 Though the results from a gradient boosting model is somewhat of a black box, I used the SHAP library to get some interpretability from the most important features in my model. 
 
 
-![](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563921052381_image.png)
+![Results](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563921052381_image.png)
 
 
 On the left, the most common factors in delays were:
