@@ -12,12 +12,12 @@ I, then, gathered daily weather information for these two months from DarkSky AP
 ## EDA
 Before tackling my problem, I did some EDA on the data I collected. First, because there were so many flights in my dataset, I wanted to reduce the number by focusing on the top 20 busiest airports. Within the 20 busiest airports, here are the average delay in minutes. 
 
-![Top Airports](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563843094722_image.png)
+![](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563843094722_image.png)
 
+In addition, I thought it would be interesting to see which airlines had the most delays out of the top 20 busiest airlines. Below, are these 20 airlines and the percent of flights delayed more than 30 minutes. 
 
-In addition, I thought it would be interesting to see which airlines had the most delays out of the top 20 busiest airlines. Below, are these 20 airlines and the percent of flights delayed more than 30 minutes.  
+![](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563922744434_image.png)
 
-![Top Airlines](https://paper-attachments.dropbox.com/s_F39AC199D2D18BA4069336B797942B2CEBEAE5FD6F8D29B75873518EB6459AC8_1563922744434_image.png)
 
 ## Feature Engineering and Metrics Selection
 
@@ -63,7 +63,7 @@ On the right, these were the most common factors in flights that were less likel
    2. Tuesday flights also tend to be less likely to be delayed
    3. Early morning flights also are less likely to be delayed
    4. Hartsfield-Jackson Atlanta Airport and Denver Airport are also the best airports to fly out of. 
-   
+
 For more information by airport, see the below screen recording of the Tableau visual I created to show the average delay time by airport.
 
 ![Average Delay in minutes by Airport](https://github.com/amyksu/classifying-flight-delays/blob/master/average_delay_by_airport.gif)
