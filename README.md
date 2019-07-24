@@ -63,6 +63,14 @@ On the right, these were the most common factors in flights that were less likel
    2. Tuesday flights also tend to be less likely to be delayed
    3. Early morning flights also are less likely to be delayed
    4. Hartsfield-Jackson Atlanta Airport and Denver Airport are also the best airports to fly out of. 
+   
+For more information by airport, see the below screen recording of the Tableau visual I created to show the average delay time by airport.
+
+![Average Delay in minutes by Airport](https://github.com/amyksu/classifying-flight-delays/blob/master/average_delay_by_airport.gif)
+
+<iframe src='https://gfycat.com/ifr/ScalyDisgustingHippopotamus' frameborder='0' scrolling='no' allowfullscreen width='640' height='444'></iframe>
+
+<sub>For a higher quality video, visit [here](https://gfycat.com/scalydisgustinghippopotamus)</sub>
 
 ## Future Work 
 In the future, there are a couple of things that I would like to add to my project. Firstly, the data that I obtained was all domestic data. In the future, it would be cool if I could gather some international flight information and incorporate that into my modeling. In addition, the weather data that I gathered was only daily due to API limitations from the API I used. In the future, I would like to gather more granular data such as hourly weather data to better account for weather in my model. 
