@@ -66,7 +66,7 @@ On the right, these were the most common factors in flights that were less likel
 
 For more information by airport, see the below screen recording of the Tableau visual I created to show the average delay time by airport.
 
-![Average Delay in minutes by Airport](https://github.com/amyksu/classifying-flight-delays/blob/master/average_delay_by_airport.gif)
+![Average Delay in minutes by Airport](https://github.com/amyksu/classifying-flight-delays/blob/master/visuals/average_delay_by_airport.gif)
 
 
 <sub>For a higher quality video, visit [here](https://gfycat.com/scalydisgustinghippopotamus)</sub>
